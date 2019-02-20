@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Pink: #FF4E50
+Green: #18D4CA
+Orange: #FFA710
+Purple: #667DF3
+Dark Grey (Headings): #444444
+Grey: #666666 */
+
+/* opening section//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.banner{
+    padding: 1%;
+    padding-top: 10%;
+    margin: 0 auto;
+    background-image: url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+
+.banner-content{
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.heading{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 58px;
+}
+.subtext{
+    font-family: 'Montserrat';
+    color: white;
+    opacity: 0.7;
+    font-size: 24px;
+}
+button{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    width: 17%;
+    border: 1px solid #FF4E50;
+    border-radius: 50px;
+    height: 36px;
+    background-color: #FF4E50;
+    color: white;
+    font-size: 14px;
+}
+
+/* midsection containing details of partners and grid///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+h2{
+    color: #444444;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px; 
+    text-align: center;
+}
+
+.container{
+    padding: 1%;
+    margin: 0 auto;  
+    text-align: center;
+}
+
+.partners{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 65%;
+    text-align: center;
+}
+
+.partner > img{
+    border-radius: 50%;
+}
