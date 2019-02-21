@@ -1,0 +1,110 @@
+/* media queries////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* general queries//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1080px){
+    .button{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    .grid2{
+        max-width: 80%;
+    }
+
+    .gridBlock1 > div, .gridBlock2 > div, .gridBlock3 > div, .gridBlock4 > div, .gridBlock7 > div{
+        height: 60%;
+    }
+
+    .gridBlock5 > div, .gridBlock6 > div{
+        height: 59%;
+    }
+}
+
+/* queries for tablet///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1000px){
+    .gridBlock1 > div, .gridBlock2 > div, .gridBlock3 > div, .gridBlock4 > div, .gridBlock7 > div, .gridBlock5 > div, .gridBlock6 > div{
+        background-color: rgba(0, 0, 0, 0.0);
+        color: #444444;
+    }
+}
+
+@media (max-width: 768px){
+
+    button{
+        width: 24%;
+    }
+}
+
+/* queries for mobile///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 640px){
+
+    .banner{
+        height: 400px;
+        background-size: auto;
+    }
+    .partners{
+        grid-template-columns: 1fr;
+        max-width: 60%;
+    }
+
+    .grid2{
+        display: -ms-inline-grid;
+        grid-template-columns: 1fr;
+    }
+
+    .gridBlock5, .gridBlock6{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .container2{
+        padding-top: 85%;
+    }
+    .container3{
+        padding-top: 50%;
+    }
+
+    #heading{
+        display: none;
+    }
+
+    #music, #brush, #camera, #airplane{
+        max-width: 6.5%;
+        height: 20px;
+        padding-top: 2%;
+    }
+
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gridBlock1 > div, .gridBlock2 > div, .gridBlock3 > div, .gridBlock4 > div, .gridBlock7 > div, .gridBlock5 > div, .gridBlock6 > div{
+        padding-top: 27%;
+    }
+}
+
+@media (max-width: 360px){
+    button{
+        display: none;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    article{
+        text-align: center;
+    }
+
+    .container2{
+        padding-top: 100%;
+    }
+    .container3{
+        padding-top: 180%;
+    }
+}
