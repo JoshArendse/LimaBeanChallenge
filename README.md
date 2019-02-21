@@ -1,4 +1,4 @@
-# PHP LimaBeanChallenge
+LimaBeanChallenge
 
  - Final Commit to LimaBean Challenge
 
