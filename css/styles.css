@@ -7,6 +7,38 @@ html{
     padding: 1%;
 }
 
+.nav{
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 10%;
+}
+
+nav{
+    display: inline;
+    padding-right: 10%;
+}
+
+#icon{
+    filter: invert(100%);
+    padding-right: 40%;
+}
+
+input[type="submit"]{
+    text-decoration: none !important;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
 /* Pink: #FF4E50
 Green: #18D4CA
 Orange: #FFA710
@@ -18,7 +50,7 @@ Grey: #666666 */
 
 .banner{
     padding: 1%;
-    padding-top: 10%;
+    padding-top: 5%;
     margin: 0 auto;
     background-image: url(../img/banner.jpg);
     background-attachment: fixed;
