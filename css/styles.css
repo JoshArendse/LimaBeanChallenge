@@ -57,26 +57,353 @@ button{
 h2{
     color: #444444;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 18px; 
+    font-weight: 800;
+    font-size: 19px; 
     text-align: center;
 }
 
 .container{
     padding: 1%;
+    height: auto;
     margin: 0 auto;  
     text-align: center;
 }
+
+
+/* individual grid styling aspects//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .partners{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    height: 200px;
+    grid-gap: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.partner > .img{
+    border-radius: 50%;
+}
+
+.logo > div{
+    margin: 0 auto;
+    position: relative;
+    left: 17%;
+    bottom: 35px;
+    box-shadow: 0px 0px 0px 6px rgb(255, 255, 255);
+    z-index: 1;
+}
+
+#music, #brush, #camera, #airplane{
+    max-width: 12%;
+    height: 24px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#img{
+    filter: invert(100%);
+}
+
+#music{
+    padding-top: 3.5%;
+    background-color: #FF4E50;
+}
+#brush{
+    padding-top: 3.5%;
+    background-color: #18D4CA;
+}
+#camera{
+    padding-top: 3.5%;
+    background-color: #FFA710;
+}
+#airplane{
+    padding-top: 3.5%;
+    background-color: #667DF3;
+}
+
+/* character info///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.names{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    position: relative;
+    bottom: 25px;
+    color: #444444;
+}
+p{
+    color: #444444;
+    font-family: 'Montserrat';
+    opacity: 0.7; 
+    position: relative;
+    bottom: 25px;
+}
+
+/* start of section for main activities grid////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container2, .container3{
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    padding-top: 2%;
+    height: auto;
+}
+
+.button{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    width: 12%;
+    border: 3px solid #FF4E50;
+    border-radius: 50px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    color: #FF4E50;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+/* 2nd grid styling/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.grid2{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    grid-gap: 20px;
     max-width: 65%;
     text-align: center;
 }
 
-.partner > img{
-    border-radius: 50%;
+/* grid items///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.gridBlock1{
+    background-image: url(../img/block1Sports.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
 }
+.gridBlock2{
+    background-image: url(../img/block2Wellness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.gridBlock3{
+    background-image: url(../img/block3Expeditions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.gridBlock4{
+    background-image: url(../img/block4Games.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.gridBlock5{
+    background-image: url(../img/block5Culture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.gridBlock6{
+    background-image: url(../img/block6Beauty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.gridBlock7{
+    background-image: url(../img/block7Travelling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+/* darkening effect/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.gridBlock1 > div{
+    padding-top: 52%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock2 > div{
+    padding-top: 52%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock3 > div{
+    padding-top: 52%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock4 > div{
+    padding-top: 52%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock5 > div{
+    padding-top: 25.5%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock6 > div{
+    padding-top: 25.5%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock7 > div{
+    padding-top: 52%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.gridBlock1 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition-: all 1s ease-in-out;
+}
+.gridBlock2 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock3 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock4 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock5 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock6 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition: all 300ms ease-in-out;
+}
+.gridBlock7 > div:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #444444;
+    transition: all 300ms ease-in-out;
+}
+
+/* section for footer grid//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container4{
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 2px solid #FF4E50;
+}
+
+footer{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 72%;
+    text-align: left;
+}
+
+.footer1{
+    color: #FF4E50;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 19px; 
+    text-align: center;
+}
+
+article{
+    color: #666666;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.6;
+    text-align: left;
+}
+
+/* media queries////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+

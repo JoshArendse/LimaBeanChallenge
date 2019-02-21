@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800|Roboto" rel="stylesheet">
     <title>DreamShare</title>
@@ -31,30 +32,169 @@
 
     <div class="container">
 
-        <div class="partners">
+        <div class="partners" data-aos="fade-right">
             
             <div class="partner">
-                <img src="img/partner1.jpg" alt="Bradley">
+
+                <img class="img" src="img/partner1.jpg" alt="Bradley">
+
+                <div class="logo">
+                    <div id="music"><img id="img" src="icon/music.svg" alt="music"></div>
+                </div>
+
+                <h1 class="names">Bradly Hunter</h1>
+                <p>Based in Chicago. I love playing tennis and loud music.</p>
+
             </div>
 
             <div class="partner">
-                <img src="img/partner2.jpg" alt="Marie">
+
+                <img class="img" src="img/partner2.jpg" alt="Marie">
+
+                <div class="logo">
+                    <div id="brush"><img id="img" src="icon/brush.svg" alt="brush"></div>
+                </div>
+
+                <h1 class="names">Marie Bennet</h1>
+                <p>Currently living in Colarado. Lover of arts, languages and travelling.</p>
+
             </div>
 
             <div class="partner">
-                <img src="img/partner3.jpg" alt="Diana">
+
+                <img class="img" src="img/partner3.jpg" alt="Diana">
+
+                <div class="logo">
+                    <div id="camera"><img id="img" src="icon/camera.svg" alt="camera"></div>
+                </div>
+
+                <h1 class="names">Diana Wells</h1>
+                <p>Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
+
             </div>
-            
+
             <div class="partner">
-                <img src="img/partner4.jpg" alt="Christopher">
+
+                <img class="img" src="img/partner4.jpg" alt="Christopher">
+
+                <div class="logo">
+                    <div id="airplane"><img id="img" src="icon/airplane.svg" alt="airplane"></div>
+                </div>
+
+                <h1 class="names">Christopher Pierce</h1>
+                <p>Star Wars fanatic. I have a persistent enthusiasm to create new things. </p>
+
             </div>
 
         </div>
 
+    </div>
+    <br>
+    <br>
+
+    <!-- grid section//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="container2">
+
+        <button class="button" data-aos="fade-up">See other partners</button>
+        <br>
+        <br>
+
+        <h2 style="font-size: 19px; font-weight: 800; padding-top: 20px">Discover holiday activity ideas</h2>
+
+    </div>
+    
+    <div class="container3">
+
+        <div class="grid2">
+
+            <div class="gridBlock1" data-aos="fade-down">
+                <div>Sports</div>
+            </div>
+
+            <div class="gridBlock2" data-aos="fade-down">
+                <div>Wellness and Healh</div>
+            </div>
+
+            <div class="gridBlock3" data-aos="fade-down">
+                <div>Expeditions</div>
+            </div>
+
+            <div class="gridBlock4" data-aos="fade-in">
+                <div>Games</div>
+            </div>
+
+            <div class="gridBlock5" data-aos="fade-left">
+                <div>Culture and Education</div>
+            </div>
+
+            <div class="gridBlock6" data-aos="fade-right">
+                <div>Beauty and Relaxation</div>
+            </div>
+
+            <div class="gridBlock7" data-aos="fade-in">
+                <div>Travelling</div>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+<!-- section for footer grid///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="container4">
+
+        <footer>
+
+            <div class="footer1">DREAMSHARE</div>
+
+            <div class="footer2">
+                <span class="footer1" style="color:#444444; font-weight: 800">Company</span><br><br>
+                    <article>
+                        About<br><br>
+                        Contact<br><br>
+                        Press<br><br>
+                        Blog<br><br>
+                        Terms and Privacy<br><br>
+                        Help
+                    </article>
+            </div>
+
+            <div class="footer3">
+                <span class="footer1" style="color:#444444; font-weight: 800">Activities</span><br><br>
+                    <article>
+                        Sports<br><br>
+                        Wellness and Health<br><br>
+                        Expeditions<br><br>
+                        Games<br><br>
+                        Culture and Education<br><br>
+                        <span style="color:#FF4E50">View all</span>
+                    </article>
+            </div>
+
+            <div class="footer4">
+                <span class="footer1" style="color:#444444; font-weight: 800">Contact us</span><br><br>
+                    <article>
+                        Tel: (000) 000-0000<br><br>
+                        Email: dreamshare@email.com
+                    </article>
+            </div>
+
+        </footer>
+        <br>
+        <br>
 
     </div>
 
+<!-- scripting/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>
